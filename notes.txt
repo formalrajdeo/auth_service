@@ -1,0 +1,5 @@
+pnpm init &&
+ pnpm i axios cookie-parser cors express jsonwebtoken mongodb ts-node uuid &&
+ pnpm i -D @types/cookie-parser @types/cors @types/express @types/jsonwebtoken @types/node @types/uuid ts-node-dev tsconfig-paths typescript
+
+git init && touch tsconfig.json .gitignore && mkdir api shared .vscode && touch api/tsconfig.json shared/tsconfig.json .vscode/setting.json
